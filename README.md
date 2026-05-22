@@ -95,21 +95,24 @@ Additional visualizations such as confusion matrices and prediction samples were
 ```text
 project/
 │
-├── data/
-│   ├── train_32x32.mat
-│   ├── test_32x32.mat
-│   └── SVHN_RGB.h5
 │
 ├── img/
 │   ├── class_distribution.png
 │   ├── confusion_matrix.png
 │   ├── training_history.png
-│   ├── training_history_accuracy.png
 │   ├── correctly_classified_samples.png
 │   ├── misclassified_samples.png
+│   ├── svhn_dataset.png
 │   └── cnn_diagram.png
+│
+├── models/
+│   └── svhn_model.h5
 │
 ├── notebook/
 │   └── svhn.ipynb
 │
-└── README.md
+├── .gitignore
+│
+├── README.md
+│
+└── requirements.txt
